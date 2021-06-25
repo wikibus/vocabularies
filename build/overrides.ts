@@ -12,5 +12,6 @@ export interface Override extends FileSpec {
 }
 
 export const overrides: Record<string, Override> = {
-  // Customize how each vocabulary is processed
+  wba: 'file:src/vocabulary/api.ttl',
+  wbo: 'file:src/vocabulary/ontology.ttl'
 }
