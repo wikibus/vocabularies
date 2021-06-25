@@ -1,13 +1,12 @@
 {
-  "name": "@zazuko/build-your-vocabularies",
+  "name": "@wikibus/vocabularies",
   "version": "0.0.0",
-  "private": true,
   "description": "Access your vocabularies as datasets or n-quads",
   "main": "index.js",
   "module": "index.mjs",
   "browser": "index.mjs",
   "bin": {
-    "my-vocab": "bin/vocab.js"
+    "wb-vocab": "bin/vocab.js"
   },
   "exports": {
     ".": {
@@ -52,7 +51,7 @@
   ],
   "scripts": {
     "prefetch": "mkdirp ontologies",
-    "fetch": "ts-node build/fetch.ts --indexBase https://prefix.example.com/",
+    "fetch": "ts-node build/fetch.ts --indexBase https://prefix.wikibus.org/",
     "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --quiet",
     "pretest": "npm run lint",
     "prepare:modules": "mkdirp src/datasets; ts-node build/modules",
@@ -63,11 +62,8 @@
     "build": "run-p build:*",
     "prepack": "npm run build"
   },
-  "author": "Zazuko GmbH",
+  "author": "Tomasz Pluskiewicz",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zazuko/build-your-vocabularies/issues"
-  },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3",
