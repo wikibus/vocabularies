@@ -1,0 +1,8 @@
+PREFIX as: <https://www.w3.org/ns/activitystreams#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix events: <https://wikibus.org/api#events/>
+
+events:SourcePdfUploaded
+  rdfs:subClassOf as:Activity ;
+  rdfs:label "The activity of having uploaded a PDF to a source" ;
+.

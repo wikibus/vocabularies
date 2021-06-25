@@ -1,0 +1,19 @@
+<https://wikibus.org/api#ImageCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/hydra/core#Class> <https://wikibus.org/api#> .
+<https://wikibus.org/api#ImageCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/ImageGallery> <https://wikibus.org/api#> .
+<https://wikibus.org/api#ImageCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/hydra/core#Collection> <https://wikibus.org/api#> .
+<https://wikibus.org/api#ImageUpload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/hydra/core#Class> <https://wikibus.org/api#> .
+<https://wikibus.org/api#WishlistItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/hydra/core#Class> <https://wikibus.org/api#> .
+<https://wikibus.org/api#imageOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://wikibus.org/api#> .
+<https://wikibus.org/api#imageOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/ImageObject> <https://wikibus.org/api#> .
+<https://wikibus.org/api#imageOf> <http://www.w3.org/2000/01/rdf-schema#label> "Links an image to what it depicts" <https://wikibus.org/api#> .
+<https://wikibus.org/api#imageOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://schema.org/image> <https://wikibus.org/api#> .
+<https://wikibus.org/api#images> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/hydra/core#Link> <https://wikibus.org/api#> .
+<https://wikibus.org/api#images> <http://www.w3.org/2000/01/rdf-schema#label> "Links a resource to its collection of images" <https://wikibus.org/api#> .
+<https://wikibus.org/api#uploadPdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/hydra/core#Link> <https://wikibus.org/api#> .
+<https://wikibus.org/api#uploadPdf> <http://www.w3.org/2000/01/rdf-schema#label> "Links property to the file resource which allows upload" <https://wikibus.org/api#> .
+<https://wikibus.org/api#uploadPdf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/associatedMedia> <https://wikibus.org/api#> .
+<https://wikibus.org/api#wishlistOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://wikibus.org/api#> .
+<https://wikibus.org/api#wishlistOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://wikibus.org/api#Wishlist> <https://wikibus.org/api#> .
+<https://wikibus.org/api#wishlistOf> <http://www.w3.org/2000/01/rdf-schema#label> "Links an image to what it depicts" <https://wikibus.org/api#> .
+<https://wikibus.org/api#wishlistOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://wikibus.org/api#Brochure> <https://wikibus.org/api#> .
+<https://wikibus.org/api#wishlistOf> <http://www.w3.org/2002/07/owl#inverse> <https://wikibus.org/api#wishlist> <https://wikibus.org/api#> .

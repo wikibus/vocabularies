@@ -1,0 +1,2 @@
+<https://wikibus.org/api#events/SourcePdfUploaded> <http://www.w3.org/2000/01/rdf-schema#label> "The activity of having uploaded a PDF to a source" <https://wikibus.org/api#events/> .
+<https://wikibus.org/api#events/SourcePdfUploaded> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.w3.org/ns/activitystreams#Activity> <https://wikibus.org/api#events/> .

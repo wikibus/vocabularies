@@ -1,0 +1,50 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX hydra: <http://www.w3.org/ns/hydra/core#>
+prefix wba: <https://wikibus.org/api#>
+PREFIX schema: <http://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX code: <https://code.described.at/>
+
+wba:ImageCollection
+  a hydra:Class ;
+  rdfs:subClassOf hydra:Collection ;
+.
+
+wba:WishlistItem
+  a hydra:Class ;
+.
+
+wba:imageOf
+  a rdf:Property ;
+  rdfs:label "Links an image to what it depicts" ;
+  owl:inverseOf schema:image ;
+  rdfs:domain schema:ImageObject ;
+.
+
+wba:images
+  a hydra:Link ;
+  rdfs:label "Links a resource to its collection of images" ;
+.
+
+wba:wishlistOf
+  a rdf:Property ;
+  rdfs:label "Links an image to what it depicts" ;
+  owl:inverse wba:wishlist ;
+  rdfs:range wba:Brochure ;
+  rdfs:domain wba:Wishlist ;
+.
+
+wba:ImageUpload
+  a hydra:Class ;
+.
+
+wba:ImageCollection
+  rdfs:subClassOf hydra:Collection, schema:ImageGallery
+.
+
+wba:uploadPdf
+  a hydra:Link ;
+  rdfs:subPropertyOf schema:associatedMedia ;
+  rdfs:label "Links property to the file resource which allows upload" ;
+.

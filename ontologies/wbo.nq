@@ -1,0 +1,2 @@
+<https://wikibus.org/ontology#Brochure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://wikibus.org/ontology#Source> <https://wikibus.org/ontology#> .
+<https://wikibus.org/ontology#Source> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/hydra/core#Resource> <https://wikibus.org/ontology#> .

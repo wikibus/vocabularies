@@ -1,5 +1,6 @@
 const prefixes = {
   wba: 'https://wikibus.org/api#',
+  'wb-events': 'https://wikibus.org/api#events/',
   wbo: 'https://wikibus.org/ontology#'
 }
 
