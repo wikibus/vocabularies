@@ -1,5 +1,6 @@
 const prefixes = {
-  // Add with your prefixes here
+  wba: 'https://wikibus.org/api#',
+  wbo: 'https://wikibus.org/ontology#'
 }
 
 type LocalPrefixes = typeof prefixes
