@@ -1,5 +1,11 @@
 # @wikibus/vocabularies
 
+## 0.2.1
+
+### Patch Changes
+
+- d7d865f: Husky should be dev dependency
+
 ## 0.2.0
 
 ### Minor Changes
