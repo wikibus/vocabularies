@@ -30,7 +30,7 @@ wba:images
 
 wba:wishlistOf
   a rdf:Property ;
-  owl:inverse wba:wishlist ;
+  owl:inverseOf wba:wishlist ;
   rdfs:range wba:Brochure ;
   rdfs:domain wba:Wishlist ;
 .
