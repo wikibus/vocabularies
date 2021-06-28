@@ -1,5 +1,11 @@
 # @wikibus/vocabularies
 
+## 0.2.2
+
+### Patch Changes
+
+- 8ddf5d4: `wba:wishlistOf` was annotated with bogus property `owl:inverse`
+
 ## 0.2.1
 
 ### Patch Changes
