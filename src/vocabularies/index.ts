@@ -1,10 +1,10 @@
 import rdf from 'rdf-ext'
 import { Stream } from 'rdf-js'
 import { Readable } from 'stream'
-import prefixes from './prefixes'
+import prefixes from '../prefixes'
 import DatasetExt from 'rdf-ext/lib/Dataset'
 import ParserN3 from '@rdfjs/parser-n3'
-import { loadDatasetStream } from './loadDataset'
+import { loadDatasetStream } from '../loadDataset'
 
 export type Datasets = Partial<Record<keyof typeof prefixes, DatasetExt>>
 

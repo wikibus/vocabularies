@@ -14,8 +14,8 @@
       "import": "./index.mjs"
     },
     "./vocabularies": {
-      "require": "./vocabularies.js",
-      "import": "./vocabularies.mjs"
+      "require": "./vocabularies/index.js",
+      "import": "./vocabularies/index.mjs"
     },
     "./prefixes": {
       "require": "./prefixes.js",
@@ -44,6 +44,7 @@
     "loadDataset",
     "datasets",
     "ontologies",
+    "vocabularies",
     "*.js",
     "*.mjs",
     "*.d.ts",
