@@ -1,5 +1,12 @@
 # @wikibus/vocabularies
 
+## 0.2.3
+
+### Patch Changes
+
+- 724d92b: `vocabularies` export would not work in node using ES modules
+- 8fe529d: In node, an error was thrown when trying to import `./vocabularies/index.mjs"`
+
 ## 0.2.2
 
 ### Patch Changes
